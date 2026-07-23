@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
+    <main class="container"> 
+        <div class="input-wrap">
+            <input type="text" id="code-input" class="input-area" placeholder="Introduce el código">
+            <button class="btn" id="check">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+</svg>
 
-    <input type="text" id="code-input" placeholder="Introduce el código">
-    <button id="check">comprueba</button>
-    
-    <p id="output-area"></p>
+            </button>
+            
+            
+        </div>
+        <div class="message">
+                <p  id="output-area"></p>
+            </div>
+        
+
+    </main>
 
 
     <script type="module" src="main.js"></script>

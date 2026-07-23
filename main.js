@@ -6,10 +6,7 @@ const inputCode = document.querySelector("#code-input")
 const button = document.querySelector("#check")
 const output = document.querySelector("#output-area")
 
-
 const history = []
-
- 
 
 function showResult() {
     const codeToCheck = inputCode.value.trim()
@@ -29,7 +26,7 @@ function showResult() {
         const intro = success(codeToCheck)
         message = `${intro}<br>${listaHtml}`
 
-        console.log(history)
+        
     } else {
         message = error(codeToCheck)
     }
